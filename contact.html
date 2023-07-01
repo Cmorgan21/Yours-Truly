@@ -43,7 +43,31 @@
     </header>
 
     <main>
-      
+        <section id="section-one-contact">
+            <div class="s1-filter-block"></div>
+            <div class="form-container" aria-label="background of salon room">
+                <form id="contact-form" action="https://formdump.codeinstitute.net" method="post">
+                    <h2>Contact Form</h2>
+                    <input type="text" placeholder="First Name" name="fname" required>
+                    <br>
+                    <input type="text" placeholder="Last Name" name="lname" required>
+                    <br>
+                    <input type="email" placeholder="Email Address" name="email_address" required>
+                    <br>
+                    <input type="tel" name="phone_number" placeholder="Enter your Phone Number">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <br>
+                    <label for="checkbox" id="tc-label">Confirm you accept terms and conditions</label>
+                    <input type="checkbox" name="tc-checked" id="checkbox" required>
+                    <div class="form-tc-container">
+                        <details>
+                            <summary>Terms and Conditions</summary>
+                            By Agreeing to our Terms and Conditions you confirm you are Happy for Yours Truly to contact you.
+                        </details>
+                    </div>
+                </form>
+            </div>
         </section>
 
         <section id="section-two-contact">
