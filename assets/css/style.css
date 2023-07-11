@@ -579,3 +579,93 @@ p {
 .fa-location-dot {
     font-size: 30px;
 }
+
+/* index.html section5 styling */
+
+#section-five-index {
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.s5-iframe-container {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.s5-text-container {
+    width: 50%;
+    height: 60%;
+
+    color: rgba(148, 98, 234, 1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+}
+
+.s5-text-container>h3 {
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+
+    margin: 10px 0;
+    letter-spacing: 5px;
+}
+
+.s5-text-container>p {
+    line-height: 25px;
+    font-size: 20px;
+
+    padding: 0 5%;
+
+}
+
+.s5-button-container {
+    width: 100%;
+    height: 10%;
+
+    position: absolute;
+    bottom: -10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s5-button-container>button {
+    background: rgba(255, 255, 255, 0.5);
+    height: 40px;
+    width: 20%;
+    margin-top: 20px;
+
+    border: solid rgba(148, 98, 234, 1) 1px;
+    border-radius: 10px;
+}
+
+.s5-button-container>button>a {
+    color: rgba(148, 98, 234, 1);
+
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+}
+
+.s5-button-container>button:hover>a {
+    color: white;
+}
+
+.s5-button-container>button:hover {
+    background-color: rgba(148, 98, 234, 1);
+
+}
