@@ -982,3 +982,130 @@ p {
 #contact-link {
     color: lightgrey;
 }
+
+/* contact section1 styling */
+
+#section-one-contact {
+    height: 700px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background-image: url(/assets/images/contact.html-photos/salon-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+
+}
+
+.s1-filter-block {
+    opacity: 40%;
+
+    background-color: white;
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.form-container {
+    height: 500px;
+    width: 400px;
+
+    background-color: rgba(148, 98, 234, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+
+    display: flex;
+    justify-content: center;
+
+    z-index: 11;
+}
+
+
+#contact-form {
+    position: relative;
+}
+
+#contact-form>h2 {
+    color: white;
+
+    margin: 50px 0 10px 0;
+    text-align: center;
+
+}
+
+.form-tc-container {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+
+    overflow: auto;
+
+    color: white;
+
+}
+
+#tc-label {
+    color: white;
+}
+
+#contact-form>input[type=text],
+#contact-form>input[type=email] {
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 2px;
+
+    height: 40px;
+    width: 250px;
+
+    margin: 20px 0;
+
+    border: solid rgba(148, 98, 234, 0.3) 1px;
+    border-radius: 5px;
+}
+
+#contact-form>input[type=tel] {
+    background: rgba(255, 255, 255, 0.8);
+
+    height: 30px;
+    width: 175px;
+
+    margin: 10px 0;
+
+    border: solid rgba(148, 98, 234, 0.3) 1px;
+    border-radius: 5px;
+}
+
+#contact-form>input[type=submit],
+#contact-form>input[type=reset] {
+    height: 50px;
+    width: 40%;
+    margin: 10px 3px;
+
+    border: 1px solid rgba(148, 98, 234, 0.3);
+    border-radius: 10px;
+    background: rgba(148, 98, 234, 1);
+    color: white;
+
+    box-shadow: 0 0 10px 0.2px black;
+    transition: 0.5s ease;
+}
+
+#contact-form>input[type=submit]:hover,
+#contact-form>input[type=reset]:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgb(129, 75, 247);
+    color: white;
+
+    box-shadow: 0 0 10px 2px black;
+    transform: translateY(-2px);
+
+}
