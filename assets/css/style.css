@@ -675,3 +675,118 @@ p {
 #treatment-link {
     color: lightgrey;
 }
+
+/* treatments section1 styling */
+
+#section-one-treatments {
+    height: 400px;
+    width: 100%;
+}
+
+.s1-treatments-container {
+    height: 100%;
+    width: 100%;
+
+    border: solid 3px white;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.s1-treatments-box {
+    height: 100%;
+    width: 20%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.s1-treatments-box>a>h2 {
+    font-family: 'Satisfy', cursive;
+}
+
+.s1-treatments-box a {
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+
+.s1-treatments-box a:hover {
+    color: rgba(148, 98, 234, 1);
+}
+
+#box-one {
+    background-image: url(/assets/images//treatments.html-photos/woman-with-eyelashes-extension-side-view.jpg);
+    background-position: right;
+    position: relative;
+
+}
+
+#box-one:hover {
+    background-size: 220%;
+
+}
+
+#box-two {
+    background-image: url(/assets/images//treatments.html-photos/half-face-eyebrows.jpg);
+    position: relative;
+    background-position: center;
+}
+
+#box-two:hover {
+    background-size: 120%;
+
+}
+
+#box-three {
+    background-image: url(/assets/images/treatments.html-photos/woman-having-facial.jpg);
+    position: relative;
+    background-position: center;
+}
+
+#box-three:hover {
+    background-size: 250%;
+
+}
+
+#box-four {
+    position: relative;
+    background-position: center;
+    background-image: url(/assets/images/treatments.html-photos/defined-lips);
+}
+
+#box-four:hover {
+    background-size: 240%;
+
+}
+
+#box-five {
+    background-image: url(/assets/images/treatments.html-photos/young-girl-wondering-that-hse-have-first-wrinkle-her-forehead_633478-586.avif);
+    position: relative;
+    background-position: center;
+}
+
+#box-five:hover {
+    background-size: 120%;
+
+}
+
+
+.s1-box-text {
+    color: white;
+
+    opacity: 0;
+
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+
+}
+
+.s1-treatments-box:hover>.s1-box-text {
+    opacity: 100%;
+
+}
