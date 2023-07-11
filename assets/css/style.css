@@ -432,3 +432,83 @@ p {
     background-color: white;
 
 }
+
+/* index.html section3 styling */
+
+#section-three-index {
+    height: 600px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3-photo-button-container {
+    width: 50%;
+    height: 100%;
+
+    border-bottom: solid white 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3-photo-container {
+    height: 80%;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.s3-photo-container>img {
+    height: 100%;
+    scale: 120%;
+
+    animation: imageScale 20s linear;
+
+}
+
+@keyframes imageScale {
+    0% {
+        scale: 100%;
+    }
+
+    100% {
+        scale: 120%;
+    }
+}
+
+
+
+.s3-text-container {
+    width: 50%;
+    height: 100%;
+
+    padding: 0 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    color: rgba(148, 98, 234, 1);
+    border-bottom: solid white 2px;
+}
+
+.s3-text-container>h3 {
+    font-size: 30px;
+    letter-spacing: 5px;
+
+    font-family: 'Satisfy', cursive;
+}
+
+.s3-text-container>p {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    line-height: 25px;
+}
