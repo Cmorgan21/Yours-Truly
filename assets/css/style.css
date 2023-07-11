@@ -669,3 +669,9 @@ p {
     background-color: rgba(148, 98, 234, 1);
 
 }
+
+/* Treatments Page Styling */
+
+#treatment-link {
+    color: lightgrey;
+}
