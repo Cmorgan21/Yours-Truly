@@ -976,3 +976,9 @@ p {
 .lash-card-back>table>tr {
     padding: 0 10px;
 }
+
+/* contact.html styling */
+
+#contact-link {
+    color: lightgrey;
+}
