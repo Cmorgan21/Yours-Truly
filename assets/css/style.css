@@ -1173,3 +1173,14 @@ p {
     width: 50%;
 
 }
+
+/* contact footer styling */ 
+.footer-container-contact {
+    background: rgba(148, 98, 234, 0.3);
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
