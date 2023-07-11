@@ -63,3 +63,106 @@ p {
 .burger-menu-container {
     display: none;
 }
+
+.nav-container {
+    height: 75px;
+    width: 100%;
+
+    background-color: rgba(148, 98, 234, 1);
+    z-index: 20;
+
+
+}
+
+.nav-container>nav {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 20;
+
+
+}
+
+.text-logo-container {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+
+    z-index: 20;
+}
+
+.text-logo-container>a img {
+    height: 100px;
+
+    transform: translateY(7px);
+    z-index: 20;
+}
+
+.text-logo-container h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+
+    padding: 0 20px;
+    letter-spacing: 7px;
+    z-index: 20;
+}
+
+.nav-container>nav>ul {
+    display: flex;
+    z-index: 20;
+}
+
+.nav-container>nav>ul li {
+    display: flex;
+
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+
+    margin-right: 10px;
+    z-index: 20;
+}
+
+.nav-container>nav>ul>li a {
+    text-decoration: none;
+
+
+    color: white;
+    font-size: 25px;
+
+    padding: 0 20px;
+    position: relative;
+    z-index: 20;
+}
+
+.nav-container>nav>ul>li a:hover {
+    color: white;
+}
+
+.nav-container>nav>ul>li a::before {
+    content: '';
+
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border-bottom: 2px solid white;
+    transition: 0.2s ease;
+}
+
+.nav-container>nav>ul>li a:hover::before {
+    content: '';
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border-bottom: 2px solid white;
+}
