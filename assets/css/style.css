@@ -790,3 +790,189 @@ p {
     opacity: 100%;
 
 }
+
+/* treatments section2 styling */
+
+.section-two-treatments {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(148, 98, 234, 1);
+    display: flex;
+}
+
+.section-two-treatments-white {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.825);
+    display: flex;
+}
+
+.s2-left-text-container {
+    width: 50%;
+    height: 100%;
+    padding: 0 70px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: left;
+}
+
+.s2-right-text-container {
+    width: 50%;
+    height: 100%;
+    padding: 0 70px;
+
+    color: rgba(148, 98, 234, 1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: left;
+}
+
+.s2-right-text-container>h3,
+.s2-left-text-container>h3 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 10px;
+
+}
+
+.s2-right-text-container>p,
+.s2-left-text-container>p {
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+
+}
+
+.s2-right-text-container>ul,
+.s2-left-text-container>ul {
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.s2-right-text-container>ul li,
+.s2-left-text-container>ul li {
+    margin: 10px 0;
+}
+
+.s2-left-text-container>ol {
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.s2-left-text-container>ol li {
+    margin: 7px 0;
+}
+
+
+
+
+.card {
+    width: 50%;
+    height: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: rotateX(180deg);
+}
+
+
+.card-front,
+.card-back {
+    height: 50%;
+    width: 50%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-family: 'Cormorant', serif;
+
+}
+
+#lashes-ph {
+    background-image: url(/assets/images/treatments.html-photos/lashes-photo.jpeg);
+}
+
+#eyebrows-ph {
+    background-image: url(/assets/images/treatments.html-photos/side-profile-eyebrow.jpg);
+
+}
+
+#facial-ph {
+    background-image: url(/assets/images/treatments.html-photos/facial-treatment.avif);
+    background-size: cover;
+
+}
+
+#filler-ph {
+    background-image: url(/assets/images/treatments.html-photos/lips-photo.avif);
+    background-position: top;
+    background-size: cover;
+}
+
+#botox-ph {
+    background-image: url(/assets/images/treatments.html-photos/Botox-forehead.jpeg);
+}
+
+
+
+.card-back {
+    background-color: rgba(148, 98, 234, 1);
+    transform: rotateX(180deg);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-back>table {
+    color: white;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin: 5px 0;
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+}
+
+.lash-card-back>table>tr {
+    padding: 0 10px;
+}
