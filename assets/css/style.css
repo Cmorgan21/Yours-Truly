@@ -512,3 +512,70 @@ p {
     font-size: 20px;
     line-height: 25px;
 }
+
+/* index.html section4 styling */
+
+
+#section-four-index {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(148, 98, 234, 1);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-four-index>h3 {
+    color: white;
+    letter-spacing: 5px;
+
+    font-family: 'Satisfy', cursive;
+
+    font-size: 30px;
+    height: 20%;
+    margin-top: 20px;
+}
+
+
+#section-four-index>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+
+    height: 100%;
+    margin-bottom: 5%;
+
+}
+
+#section-four-index>ul>li {
+    text-align: left;
+    width: 55%;
+    height: 100%;
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Cormorant', serif;
+
+    padding: 20px 30px;
+
+    border-left: 2px dashed white;
+    border-right: 2px dashed white;
+
+}
+
+#section-four-index>ul>li i {
+    margin-right: 20px;
+}
+
+.fa-house,
+.fa-globe,
+.fa-business-time,
+.fa-location-dot {
+    font-size: 30px;
+}
