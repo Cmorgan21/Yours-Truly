@@ -2047,7 +2047,6 @@ p {
     /* treatments.html responsive media */
 
     #box-one {
-        background-image: url(../images/woman-with-eyelashes-extension-side-view.jpg);
         background-position: right;
         position: relative;
         background-size: cover;
@@ -2060,7 +2059,6 @@ p {
     }
 
     #box-two {
-        background-image: url(../images/beautiful-girl-face-perfect-skin.jpg);
         position: relative;
         background-position: center;
         background-size: cover;
@@ -2072,7 +2070,6 @@ p {
     }
 
     #box-three {
-        background-image: url(../images/african-american-woman-receiving-relaxing-massage-spa.jpg);
         position: relative;
         background-position: center;
         background-size: cover;
@@ -2086,7 +2083,6 @@ p {
     #box-four {
         position: relative;
         background-position: center;
-        background-image: url(../images/beautiful-female-face-perfect-clean-skin-face-white-beauty-care-skin-treatment-health-spa-cosmetic-concept_155003-35398.avif);
     }
 
     #box-four:hover {
@@ -2095,7 +2091,6 @@ p {
     }
 
     #box-five {
-        background-image: url(../images/young-girl-wondering-that-hse-have-first-wrinkle-her-forehead_633478-586.avif);
         position: relative;
         background-position: center;
         background-size: cover;
