@@ -64,6 +64,11 @@ p {
     display: none;
 }
 
+
+
+
+
+
 .nav-container {
     height: 75px;
     width: 100%;
@@ -74,7 +79,7 @@ p {
 
 }
 
-.nav-container>nav {
+.nav-container > nav {
     height: 100%;
 
     display: flex;
@@ -96,7 +101,7 @@ p {
     z-index: 20;
 }
 
-.text-logo-container>a img {
+.text-logo-container > a img {
     height: 100px;
 
     transform: translateY(7px);
@@ -113,12 +118,12 @@ p {
     z-index: 20;
 }
 
-.nav-container>nav>ul {
+.nav-container > nav > ul {
     display: flex;
     z-index: 20;
 }
 
-.nav-container>nav>ul li {
+.nav-container > nav > ul li {
     display: flex;
 
     text-decoration: none;
@@ -128,7 +133,7 @@ p {
     z-index: 20;
 }
 
-.nav-container>nav>ul>li a {
+.nav-container>nav>ul > li a {
     text-decoration: none;
 
 
@@ -140,11 +145,11 @@ p {
     z-index: 20;
 }
 
-.nav-container>nav>ul>li a:hover {
+.nav-container > nav > ul > li a:hover {
     color: white;
 }
 
-.nav-container>nav>ul>li a::before {
+.nav-container > nav > ul > li a::before {
     content: '';
 
     width: 0%;
@@ -156,7 +161,7 @@ p {
     transition: 0.2s ease;
 }
 
-.nav-container>nav>ul>li a:hover::before {
+.nav-container > nav > ul >li a:hover::before {
     content: '';
     width: 100%;
 
@@ -239,12 +244,32 @@ p {
 
 }
 
-.copyright-container>.fa-copyright {
+.copyright-container >.fa-copyright {
     margin: 0 10px;
 }
 
-.copyright-container>span {
+.copyright-container > span {
     font-family: 'Kalam', cursive;
+}
+
+/* index.html Styling */
+
+#home-link {
+    color: lightgrey;
+}
+
+
+#section-one-index {
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(223, 214, 237, 0.079);
+    border: solid white 2px;
+
 }
 
 /* Slide Show Styling */
@@ -282,7 +307,7 @@ p {
     background: rgba(255, 255, 255, 0.5);
 }
 
-.s1-slide-show-text-container>h3 {
+.s1-slide-show-text-container > h3 {
     color: rgba(148, 98, 234, 1);
     width: 75%;
 
@@ -293,7 +318,7 @@ p {
 }
 
 
-.s1-slide-show>img {
+.s1-slide-show > img {
     height: 100%;
     width: 50%;
 
@@ -322,7 +347,7 @@ p {
     justify-content: center;
 }
 
-.s1-button-container>button {
+.s1-button-container > button {
     background: rgba(255, 255, 255, 0.5);
     height: 40px;
     width: 10%;
@@ -331,7 +356,7 @@ p {
     border-radius: 10px;
 }
 
-.s1-button-container>button>a {
+.s1-button-container > button > a {
     color: rgba(148, 98, 234, 1);
 
     font-family: 'Josefin Slab', serif;
@@ -342,7 +367,7 @@ p {
     color: white;
 }
 
-.s1-button-container>button:hover {
+.s1-button-container > button:hover {
     background-color: rgba(148, 98, 234, 1);
 
 }
@@ -381,14 +406,14 @@ p {
 
 }
 
-.s2-text-container>h3 {
+.s2-text-container > h3 {
     font-size: 30px;
     letter-spacing: 5px;
 
     font-family: 'Satisfy', cursive;
 }
 
-.s2-text-container>p {
+.s2-text-container > p {
     line-height: 30px;
     margin-top: 10px;
     font-size: 20px;
@@ -408,7 +433,7 @@ p {
     justify-content: center;
 }
 
-.s2-button-container>button {
+.s2-button-container > button {
     background: transparent;
     height: 40px;
     width: 100px;
@@ -424,14 +449,16 @@ p {
     font-weight: 700;
 }
 
-.s2-button-container>button:hover>a {
+.s2-button-container > button:hover > a {
     color: rgba(148, 98, 234, 1);
 }
 
-.s2-button-container>button:hover {
+.s2-button-container > button:hover {
     background-color: white;
 
 }
+
+
 
 /* index.html section3 styling */
 
@@ -463,7 +490,7 @@ p {
     overflow: hidden;
 }
 
-.s3-photo-container>img {
+.s3-photo-container > img {
     height: 100%;
     scale: 120%;
 
@@ -500,14 +527,14 @@ p {
     border-bottom: solid white 2px;
 }
 
-.s3-text-container>h3 {
+.s3-text-container > h3 {
     font-size: 30px;
     letter-spacing: 5px;
 
     font-family: 'Satisfy', cursive;
 }
 
-.s3-text-container>p {
+.s3-text-container > p {
     font-family: 'Cormorant', serif;
     font-size: 20px;
     line-height: 25px;
@@ -528,7 +555,7 @@ p {
     align-items: center;
 }
 
-#section-four-index>h3 {
+#section-four-index > h3 {
     color: white;
     letter-spacing: 5px;
 
@@ -540,7 +567,7 @@ p {
 }
 
 
-#section-four-index>ul {
+#section-four-index > ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -553,7 +580,7 @@ p {
 
 }
 
-#section-four-index>ul>li {
+#section-four-index > ul > li {
     text-align: left;
     width: 55%;
     height: 100%;
@@ -569,7 +596,7 @@ p {
 
 }
 
-#section-four-index>ul>li i {
+#section-four-index > ul > li i {
     margin-right: 20px;
 }
 
@@ -1174,7 +1201,7 @@ p {
 
 }
 
-/* contact footer styling */ 
+/* contact footer styling */
 .footer-container-contact {
     background: rgba(148, 98, 234, 0.3);
     height: 150px;
@@ -1183,4 +1210,85 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Responsive Media Editing */
+
+@media (max-width:1412px) {
+
+    /* index.html responsive media */
+
+    #section-two-index {
+        height: 400px;
+    }
+
+    .s2-text-container {
+        width: 50%;
+        height: 100%;
+    }
+
+
+
+    .s5-text-container>h3 {
+        font-size: 25px;
+    }
+
+    .s5-text-container>p {
+        font-size: 20px;
+    }
+
+    .s5-button-container {
+        bottom: -15px;
+    }
+
+    .s5-iframe-container {
+        scale: 90%;
+    }
+
+    /* treatments.html responsive media */
+
+    #box-one:hover {
+        background-size: 250%;
+    }
+
+    #box-three:hover {
+        background-size: 270%;
+    }
+
+    #box-four:hover {
+        background-size: 270%;
+    }
+
+
+
+    .s2-left-text-container {
+        padding: 0 10px;
+    }
+
+    .s2-right-text-container {
+        padding: 0 10px;
+
+    }
+}
+
+@media (max-width:1124px) {
+
+    /* treatments.html responsive media */
+    .s2-left-text-container>p,
+    .s2-right-text-container>p {
+        font-size: 15px;
+    }
+
+    .s2-left-text-container>ul>li,
+    .s2-right-text-container>ul li,
+    .s2-left-text-container>ol>li {
+        font-size: 15px;
+        margin: 5px 0
+    }
+
+    .card-back td {
+        font-size: 15px;
+    }
+
+
 }
