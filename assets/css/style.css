@@ -1766,6 +1766,91 @@ p {
         width: 60px;
     }
 
+@media (max-width:700px) {
+
+    /* index.html reasponsive media */
+
+    #section-two-index {
+        height: 600px;
+        width: 100%;
+    }
+
+    .s2-text-container {
+        width: 60%;
+    }
+
+    /* treatments.html responsive media */
+
+    .section-two-treatments,
+    .section-two-treatments-white {
+        flex-direction: column;
+
+        height: 800px;
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s2-right-text-container,
+    .s2-left-text-container {
+        width: 80%;
+    }
+
+    .card {
+        height: 80%;
+
+
+    }
+
+    .card-front,
+    .card-back {
+        width: 300px;
+        height: 70%;
+
+
+    }
+
+
+}
+
+@media (max-width:625px) {
+
+    /* index.html responsive media */
+
+    .s5-text-container {
+        width: 60%;
+    }
+
+
+}
+
+@media (max-width:597px) {
+
+    /* index.html responsive media */
+
+    .s1-slide-show>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #section-two-index {
+        height: 450px;
+        width: 100%;
+    }
+
+    .s2-text-container {
+        width: 70%;
+        padding: 0 10px;
+    }
+
+    #section-four-index>ul>li {
+        width: 80%;
+        padding: 20px 15px;
+    }
+
+}
+
 
 
 }
