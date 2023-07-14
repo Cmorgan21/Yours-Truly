@@ -1,7 +1,6 @@
-/* Import font */
+/* General Layout Styling */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
 
-/* General Layout Styling */
 * {
     margin: 0;
     padding: 0;
@@ -79,7 +78,7 @@ p {
 
 }
 
-.nav-container > nav {
+.nav-container>nav {
     height: 100%;
 
     display: flex;
@@ -101,7 +100,7 @@ p {
     z-index: 20;
 }
 
-.text-logo-container > a img {
+.text-logo-container>a img {
     height: 100px;
 
     transform: translateY(7px);
@@ -118,12 +117,12 @@ p {
     z-index: 20;
 }
 
-.nav-container > nav > ul {
+.nav-container>nav>ul {
     display: flex;
     z-index: 20;
 }
 
-.nav-container > nav > ul li {
+.nav-container>nav>ul li {
     display: flex;
 
     text-decoration: none;
@@ -133,7 +132,7 @@ p {
     z-index: 20;
 }
 
-.nav-container>nav>ul > li a {
+.nav-container>nav>ul>li a {
     text-decoration: none;
 
 
@@ -145,11 +144,11 @@ p {
     z-index: 20;
 }
 
-.nav-container > nav > ul > li a:hover {
+.nav-container>nav>ul>li a:hover {
     color: white;
 }
 
-.nav-container > nav > ul > li a::before {
+.nav-container>nav>ul>li a::before {
     content: '';
 
     width: 0%;
@@ -161,7 +160,7 @@ p {
     transition: 0.2s ease;
 }
 
-.nav-container > nav > ul >li a:hover::before {
+.nav-container>nav>ul>li a:hover::before {
     content: '';
     width: 100%;
 
@@ -244,11 +243,11 @@ p {
 
 }
 
-.copyright-container >.fa-copyright {
+.copyright-container>.fa-copyright {
     margin: 0 10px;
 }
 
-.copyright-container > span {
+.copyright-container>span {
     font-family: 'Kalam', cursive;
 }
 
@@ -307,7 +306,7 @@ p {
     background: rgba(255, 255, 255, 0.5);
 }
 
-.s1-slide-show-text-container > h3 {
+.s1-slide-show-text-container>h3 {
     color: rgba(148, 98, 234, 1);
     width: 75%;
 
@@ -318,7 +317,7 @@ p {
 }
 
 
-.s1-slide-show > img {
+.s1-slide-show>img {
     height: 100%;
     width: 50%;
 
@@ -347,7 +346,7 @@ p {
     justify-content: center;
 }
 
-.s1-button-container > button {
+.s1-button-container>button {
     background: rgba(255, 255, 255, 0.5);
     height: 40px;
     width: 10%;
@@ -356,7 +355,7 @@ p {
     border-radius: 10px;
 }
 
-.s1-button-container > button > a {
+.s1-button-container>button>a {
     color: rgba(148, 98, 234, 1);
 
     font-family: 'Josefin Slab', serif;
@@ -367,7 +366,7 @@ p {
     color: white;
 }
 
-.s1-button-container > button:hover {
+.s1-button-container>button:hover {
     background-color: rgba(148, 98, 234, 1);
 
 }
@@ -406,14 +405,14 @@ p {
 
 }
 
-.s2-text-container > h3 {
+.s2-text-container>h3 {
     font-size: 30px;
     letter-spacing: 5px;
 
     font-family: 'Satisfy', cursive;
 }
 
-.s2-text-container > p {
+.s2-text-container>p {
     line-height: 30px;
     margin-top: 10px;
     font-size: 20px;
@@ -433,7 +432,7 @@ p {
     justify-content: center;
 }
 
-.s2-button-container > button {
+.s2-button-container>button {
     background: transparent;
     height: 40px;
     width: 100px;
@@ -449,11 +448,11 @@ p {
     font-weight: 700;
 }
 
-.s2-button-container > button:hover > a {
+.s2-button-container>button:hover>a {
     color: rgba(148, 98, 234, 1);
 }
 
-.s2-button-container > button:hover {
+.s2-button-container>button:hover {
     background-color: white;
 
 }
@@ -490,7 +489,7 @@ p {
     overflow: hidden;
 }
 
-.s3-photo-container > img {
+.s3-photo-container>img {
     height: 100%;
     scale: 120%;
 
@@ -527,18 +526,23 @@ p {
     border-bottom: solid white 2px;
 }
 
-.s3-text-container > h3 {
+.s3-text-container>h3 {
     font-size: 30px;
     letter-spacing: 5px;
 
     font-family: 'Satisfy', cursive;
 }
 
-.s3-text-container > p {
+.s3-text-container>p {
     font-family: 'Cormorant', serif;
     font-size: 20px;
     line-height: 25px;
 }
+
+
+
+
+
 
 /* index.html section4 styling */
 
@@ -555,7 +559,7 @@ p {
     align-items: center;
 }
 
-#section-four-index > h3 {
+#section-four-index>h3 {
     color: white;
     letter-spacing: 5px;
 
@@ -567,7 +571,7 @@ p {
 }
 
 
-#section-four-index > ul {
+#section-four-index>ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -580,7 +584,7 @@ p {
 
 }
 
-#section-four-index > ul > li {
+#section-four-index>ul>li {
     text-align: left;
     width: 55%;
     height: 100%;
@@ -596,7 +600,7 @@ p {
 
 }
 
-#section-four-index > ul > li i {
+#section-four-index>ul>li i {
     margin-right: 20px;
 }
 
@@ -696,6 +700,9 @@ p {
     background-color: rgba(148, 98, 234, 1);
 
 }
+
+
+
 
 /* Treatments Page Styling */
 
@@ -1202,6 +1209,7 @@ p {
 }
 
 /* contact footer styling */
+
 .footer-container-contact {
     background: rgba(148, 98, 234, 0.3);
     height: 150px;
@@ -1318,6 +1326,8 @@ p {
 
 }
 
+
+
 @media (max-width:1024px) {
 
     /* index.html responsive media */
@@ -1351,6 +1361,9 @@ p {
     }
 
 }
+
+
+
 
 @media (max-width:926px) {
 
@@ -1485,6 +1498,11 @@ p {
         background-position-y: -350px;
 
     }
+
+
+
+
+
 }
 
 @media (max-width:713px) {
@@ -1766,6 +1784,10 @@ p {
         width: 60px;
     }
 
+
+
+}
+
 @media (max-width:700px) {
 
     /* index.html reasponsive media */
@@ -1850,7 +1872,9 @@ p {
     }
 
 }
-}
+
+
+
 
 @media (max-width:523px) {
 
