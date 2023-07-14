@@ -1292,3 +1292,28 @@ p {
 
 
 }
+
+@media (max-width:1104px) {
+    /* treatments.html responsive media */
+
+    #box-one:hover {
+        background-size: 350%;
+    }
+
+    #box-two:hover {
+        background-size: 200%;
+    }
+
+    #box-three:hover {
+        background-size: 400%;
+    }
+
+    #box-four:hover {
+        background-size: 400%;
+    }
+
+    #box-five:hover {
+        background-size: 200%;
+    }
+
+}
