@@ -1981,3 +1981,167 @@ p {
     }
 
 }
+
+@media (max-width:420px) {
+
+    /* index.html responsive media */
+
+    #section-two-index {
+        height: 500px;
+        width: 100%;
+    }
+
+    .s2-text-container {
+        width: 70%;
+        padding: 0 10px;
+    }
+
+    /* contact.html responsive media */
+
+
+    .form-container {
+        height: 600px;
+        width: 85%;
+
+        padding-left: 5px;
+    }
+
+    .information-container h3 {
+        font-size: 25px;
+    }
+
+    .information-container>iframe {
+        width: 75%;
+
+    }
+
+    #section-two-contact {
+        height: 800px;
+    }
+
+    .times-container {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .times-container>table {
+        font-size: 20px;
+    }
+
+    #contact-form>input[type=text],
+    #contact-form>input[type=email] {
+        width: 200px;
+
+        margin: 20px 10px;
+    }
+
+    #contact-form>input[type=tel] {
+        margin: 20px 10px;
+    }
+
+
+    /* treatments.html responsive media */
+
+    .section-two-treatments,
+    .section-two-treatments-white {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 900px;
+    }
+
+    .card {
+        height: 80%;
+
+
+    }
+
+    .card-front,
+    .card-back {
+        width: 250px;
+        height: 200px;
+    }
+
+    .card-back>table td {
+        font-size: 15px;
+    }
+
+
+    .s2-right-text-container>ul,
+    .s2-left-text-container>ul {
+        font-size: 15px;
+        width: 100%;
+
+        padding-left: 5px;
+        padding-top: 5px;
+
+    }
+
+    .s2-right-text-container>ul li,
+    .s2-left-text-container>ul li {
+        margin: 5px 0;
+    }
+
+    .s2-left-text-container>ol {
+        font-size: 20px;
+        font-family: 'Cormorant', serif;
+
+        padding-left: 5px;
+        padding-top: 5px;
+
+    }
+
+    .s2-left-text-container>ol li {
+        margin: 7px 0;
+    }
+
+
+
+}
+
+
+
+@media (max-width:380px) {
+
+    /* index.html responsive media */
+
+    #section-one-index {
+        height: 250px;
+    }
+
+    .s1-slide-show-text-container>h3 {
+        font-size: 10px;
+    }
+
+    #section-two-index {
+        height: 500px;
+        width: 100%;
+    }
+
+    .s2-text-container {
+        width: 85%;
+        padding: 0 10px;
+    }
+
+
+    #section-four-index {
+        height: 800px;
+    }
+
+    #section-five-index {
+        height: 800px;
+    }
+
+    .s5-text-container {
+        width: 70%;
+
+    }
+
+    .information-container>h3,
+    .times-container>h3 {
+        letter-spacing: 3px;
+    }
+
+}
