@@ -1850,7 +1850,134 @@ p {
     }
 
 }
+}
+
+@media (max-width:523px) {
+
+    /* index.html responsive media */
+
+    #section-one-index {
+        height: 300px;
+    }
+
+    .s1-slide-show>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .s1-slide-show-container {
+        height: 100%;
+        width: 100%;
+
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .s1-slide-show-text-container>h3 {
+        font-size: 15px;
+    }
+
+    .s1-slide-show {
+        width: 100%;
+        height: 100%;
+    }
 
 
+
+
+    #section-five-index {
+        height: 750px;
+    }
+
+    .s5-button-container {
+        bottom: 30px;
+    }
+
+
+    /* treatments.html responsive media */
+
+    #box-one {
+        background-image: url(/assets/images/woman-with-eyelashes-extension-side-view.jpg);
+        background-position: right;
+        position: relative;
+        background-size: cover;
+
+    }
+
+    #box-one:hover {
+        background-size: cover;
+
+    }
+
+    #box-two {
+        background-image: url(/assets/images/beautiful-girl-face-perfect-skin.jpg);
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #box-two:hover {
+        background-size: cover;
+
+    }
+
+    #box-three {
+        background-image: url(/assets/images/african-american-woman-receiving-relaxing-massage-spa.jpg);
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #box-three:hover {
+        background-size: cover;
+
+    }
+
+    #box-four {
+        position: relative;
+        background-position: center;
+        background-image: url(/assets/images/beautiful-female-face-perfect-clean-skin-face-white-beauty-care-skin-treatment-health-spa-cosmetic-concept_155003-35398.avif);
+    }
+
+    #box-four:hover {
+        background-size: cover;
+
+    }
+
+    #box-five {
+        background-image: url(/assets/images/young-girl-wondering-that-hse-have-first-wrinkle-her-forehead_633478-586.avif);
+        position: relative;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #box-five:hover {
+        background-size: cover;
+        background-position: center;
+
+    }
+
+
+
+
+
+    .s1-box-text {
+        color: white;
+
+        opacity: 100%;
+
+        position: absolute;
+        bottom: 30%;
+        right: 30%;
+
+    }
+
+
+    /* contact.html responsive media */
+
+    .form-container {
+        width: 75%;
+    }
 
 }
