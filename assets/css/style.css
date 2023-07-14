@@ -539,6 +539,126 @@ p {
     line-height: 25px;
 }
 
+#section-three-index {
+    height: 600px;
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.s3-photo-button-container {
+    width: 50%;
+    height: 100%;
+
+    border-bottom: solid white 2px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.s3-photo-container {
+    height: 80%;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.s3-photo-container>img {
+    height: 100%;
+    scale: 120%;
+
+    -webkit-animation: imageScale 20s linear;
+
+    animation: imageScale 20s linear;
+
+}
+
+@-webkit-keyframes imageScale {
+    0% {
+        scale: 100%;
+    }
+
+    100% {
+        scale: 120%;
+    }
+}
+
+@keyframes imageScale {
+    0% {
+        scale: 100%;
+    }
+
+    100% {
+        scale: 120%;
+    }
+}
+
+
+
+.s3-text-container {
+    width: 50%;
+    height: 100%;
+
+    padding: 0 5%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    text-align: center;
+
+    color: rgba(148, 98, 234, 1);
+    border-bottom: solid white 2px;
+}
+
+.s3-text-container>h3 {
+    font-size: 30px;
+    letter-spacing: 5px;
+
+    font-family: 'Satisfy', cursive;
+}
+
+.s3-text-container>p {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
 
 
 
@@ -753,7 +873,7 @@ p {
 }
 
 #box-one {
-    background-image: url(../assets/images//treatments.html-photos/woman-with-eyelashes-extension-side-view.jpg);
+    background-image: url(./assets/images//treatments.html-photos/woman-with-eyelashes-extension-side-view.jpg);
     background-position: right;
     position: relative;
 
@@ -765,7 +885,7 @@ p {
 }
 
 #box-two {
-    background-image: url(../assets/images//treatments.html-photos/half-face-eyebrows.jpg);
+    background-image: url(./assets/images//treatments.html-photos/half-face-eyebrows.jpg);
     position: relative;
     background-position: center;
 }
@@ -776,7 +896,7 @@ p {
 }
 
 #box-three {
-    background-image: url(../assets/images/treatments.html-photos/woman-having-facial.jpg);
+    background-image: url(./assets/images/treatments.html-photos/woman-having-facial.jpg);
     position: relative;
     background-position: center;
 }
@@ -789,7 +909,7 @@ p {
 #box-four {
     position: relative;
     background-position: center;
-    background-image: url(../assets/images/treatments.html-photos/defined-lips);
+    background-image: url(./assets/images/treatments.html-photos/defined-lips);
 }
 
 #box-four:hover {
@@ -798,7 +918,7 @@ p {
 }
 
 #box-five {
-    background-image: url(../assets/images/treatments.html-photos/young-girl-wondering-that-hse-have-first-wrinkle-her-forehead_633478-586.avif);
+    background-image: url(./assets/images/treatments.html-photos/young-girl-wondering-that-hse-have-first-wrinkle-her-forehead_633478-586.avif);
     position: relative;
     background-position: center;
 }
@@ -962,28 +1082,28 @@ p {
 }
 
 #lashes-ph {
-    background-image: url(../assets/images/treatments.html-photos/lashes-photo.jpeg);
+    background-image: url(./assets/images/treatments.html-photos/lashes-photo.jpeg);
 }
 
 #eyebrows-ph {
-    background-image: url(../assets/images/treatments.html-photos/side-profile-eyebrow.jpg);
+    background-image: url(./assets/images/treatments.html-photos/side-profile-eyebrow.jpg);
 
 }
 
 #facial-ph {
-    background-image: url(../assets/images/treatments.html-photos/facial-treatment.avif);
+    background-image: url(./assets/images/treatments.html-photos/facial-treatment.avif);
     background-size: cover;
 
 }
 
 #filler-ph {
-    background-image: url(../assets/images/treatments.html-photos/lips-photo.avif);
+    background-image: url(./assets/images/treatments.html-photos/lips-photo.avif);
     background-position: top;
     background-size: cover;
 }
 
 #botox-ph {
-    background-image: url(../assets/images/treatments.html-photos/Botox-forehead.jpeg);
+    background-image: url(./assets/images/treatments.html-photos/Botox-forehead.jpeg);
 }
 
 
@@ -1029,7 +1149,7 @@ p {
     justify-content: center;
     position: relative;
 
-    background-image: url(../assets/images/contact.html-photos/salon-background.jpeg);
+    background-image: url(./assets/images/contact.html-photos/salon-background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1922,7 +2042,7 @@ p {
     /* treatments.html responsive media */
 
     #box-one {
-        background-image: url(../assets/images/woman-with-eyelashes-extension-side-view.jpg);
+        background-image: url(./assets/images/woman-with-eyelashes-extension-side-view.jpg);
         background-position: right;
         position: relative;
         background-size: cover;
@@ -1935,7 +2055,7 @@ p {
     }
 
     #box-two {
-        background-image: url(../assets/images/beautiful-girl-face-perfect-skin.jpg);
+        background-image: url(./assets/images/beautiful-girl-face-perfect-skin.jpg);
         position: relative;
         background-position: center;
         background-size: cover;
@@ -1947,7 +2067,7 @@ p {
     }
 
     #box-three {
-        background-image: url(../assets/images/african-american-woman-receiving-relaxing-massage-spa.jpg);
+        background-image: url(./assets/images/african-american-woman-receiving-relaxing-massage-spa.jpg);
         position: relative;
         background-position: center;
         background-size: cover;
@@ -1961,7 +2081,7 @@ p {
     #box-four {
         position: relative;
         background-position: center;
-        background-image: url(../assets/images/beautiful-female-face-perfect-clean-skin-face-white-beauty-care-skin-treatment-health-spa-cosmetic-concept_155003-35398.avif);
+        background-image: url(./assets/images/beautiful-female-face-perfect-clean-skin-face-white-beauty-care-skin-treatment-health-spa-cosmetic-concept_155003-35398.avif);
     }
 
     #box-four:hover {
@@ -1970,7 +2090,7 @@ p {
     }
 
     #box-five {
-        background-image: url(../assets/images/young-girl-wondering-that-hse-have-first-wrinkle-her-forehead_633478-586.avif);
+        background-image: url(./assets/images/young-girl-wondering-that-hse-have-first-wrinkle-her-forehead_633478-586.avif);
         position: relative;
         background-position: center;
         background-size: cover;
