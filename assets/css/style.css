@@ -1317,3 +1317,37 @@ p {
     }
 
 }
+
+@media (max-width:1024px) {
+
+    /* index.html responsive media */
+
+    @keyframes slideShow {
+        100% {
+            transform: translateX(-160%);
+        }
+    }
+
+
+    .s1-slide-show>img {
+        height: 100%;
+        width: 60%;
+    }
+
+    .s5-iframe-container {
+        scale: 70%;
+    }
+
+    .s5-text-container>h3 {
+        font-size: 25px;
+    }
+
+    .s5-text-container>p {
+        font-size: 20px;
+    }
+
+    .s5-button-container {
+        bottom: -15px;
+    }
+
+}
