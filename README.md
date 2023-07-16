@@ -8,9 +8,9 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 
 ![Responsive Mockup](/README-images/amiresponsive-yourstruly.png)
 
-# Features 
+## Features 
 
-- ## Navigation Bar
+- __Navigation Bar__
     - The Navigation Bar Includes the Wesbite Name, Logo, and all three page links (Home, Treatments and Contact).
 
     - This section allows the user to navigate where the are within the Website. 
@@ -20,19 +20,70 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 
 ![Nav Bar](/README-images/navbar-yourstruly.png)
 
-- ## Moving Slide Show
+- __Moving Slide Show__
     - This Slide Show dipslays a greeting message welcoming people who land onto the site and also includes an image slide show of treatments that are available.
 
     - This sections objective is to capture the users attention. In Beauty people want to see work more than anything. It's the main thing people want to see looking at a businesses website. Giving them exactly what they want.
 
 ![Slide Show](/README-images/slideshow-yourstruly.png)
 
-- ## What we offer Section
-    - The What we offer section should give users a greater idea of what Yours Truly offer and their goal. It also includes a button to the treatments page. Giving them the ability to go straight to the treatments page after being enticed with the slide show.
+- __What we offer Section__
+    - The What we offer section should give users a greater idea of what Yours Truly offer. It also includes a button to the treatments page. Giving them the ability to go straight to the treatments page after being enticed with the slide show.
 
     - This will push the user to further explore into the treatments page giving them more information of what Yours Truly have to offer.
 
 ![What we offer](/README-images/what-we-offer-yourstruly.png)
+
+- __Our Goal Section__
+    - The Our Goal section section allows the user to undertanding a lot more about the company ethos and their goals. Giving them a better understanding of the type of company they are
+
+    - Our Goal section also has a picture that zooms zooms in slighty as the page is loaded. The picture of a girl smiling is aimed to have a positive effect of being happy. Making the user feeling excited amd happy.
+
+![Our Goal](/README-images/ourgoal-yourstruly.png)
+
+- __About Us Section__
+
+    - 
+    -
+
+![About Us](/README-images/aboutus-yourstruly.png)
+
+- __Where to Start Section__ 
+
+    - 
+    -
+
+
+
+![Where to Start](/README-images/wheretostart-yourstruly.png)
+
+- __Footer Section__ 
+
+    - 
+    -
+
+
+
+![Footer](/README-images/footer-yourstruly.png)
+
+- __Treatments Section__
+
+    - 
+    -
+
+- __Contact Section__ 
+
+    - 
+    -
+
+## Testing
+
+## Deployment 
+
+## Credits 
+
+
+
 
 
 
