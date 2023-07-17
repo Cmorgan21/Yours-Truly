@@ -99,13 +99,18 @@ Yours Truly's aim is to target an audience that are looking to take that step to
     - The Contact Section has a form element. Requiring first name, last name, email, phone number, submit, reset and a terms and conditions for personal information. 
 
     - This page will allow the user to get in contact with the business and disuss further what they are looking for. 
-![Contact Section](/README-images/contactpage-yourstruly.png)
+    
+    ![Contact Section](/README-images/contactpage-yourstruly.png)
 
     - The Contact Section also includes an opening times and iframe with location of the salon
 
-    - This should give the user clarification on where the Salon is and whn they are open. So they are not confused. This also gives users possibility to pop down to the salon for a more personal approach.
+    - This should give the user clarification on where the Salon is and when they are open. So they are not confused. This also gives users possibility to pop down to the salon for a more personal approach.
 
-    - ![Where to find and times section](/README-images/opening-where-yourstruly.png)
+    ![Where to find and times section](/README-images/opening-where-yourstruly.png)
+
+### Features Left to Implement 
+- Add a section where people can book a treatment from a diary
+
 
 ## Testing
 
