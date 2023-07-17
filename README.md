@@ -64,21 +64,48 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 
     - The Footer Section dipslays an arrow redirecting them back to the top of the page, GitHub and Linkden social links and Copyright of Yours Truly for their website.
 
-    - This will allow te user to quickly move to the top of the page - saving time and can help the user navigate to other social platforms of the business to follow more of thier socials.
+    - This will allow te user to quickly move to the top of the page - saving time and can help the user navigate to other social platforms of the business to follow more of thier socials.gg
 
 
 
 ![Footer](/README-images/footer-yourstruly.png)
 
 - __Treatments Section__
+![Treatments Page](/README-images/treatments-yourstruly.png)
 
-    - 
-    -
+    - The top of the Treatments Page has a row of images displayed. These have a hover feature when you hover over them. They enlarge slighly and text of the image they're related to - will redirect you to that section!
+
+    - This section should be quiet eyecatching to the user and allow them easier directory to the section they are looking for.
+
+    ![Image Banner Hover Effect](/README-images/EyebrowImageRedirector.png)
+
+
+
+    - The Treatments Section gives the user an insight to the treatments that we offer and more information about what is available. This also includes a variety of different methods in each Section such as Eyebrows and Lashes
+
+    ![Eyebrow Shaping Section](/README-images/EyebrowShaping-yourstruly.png)
+
+    - The sections also include a hover element over the photo where it will tell you more details such as Prices, Treatment times etc.
+
+    - This should allow the user to gain more information and a clearer idea of what kind of treatment they would be looking for.
+    ![Eyebrow Shaping Box](/README-images/EyebrowShaping-informationBox.png)
+
+
+
+
 
 - __Contact Section__ 
 
-    - 
-    -
+    - The Contact Section has a form element. Requiring first name, last name, email, phone number, submit, reset and a terms and conditions for personal information. 
+
+    - This page will allow the user to get in contact with the business and disuss further what they are looking for. 
+![Contact Section](/README-images/contactpage-yourstruly.png)
+
+    - The Contact Section also includes an opening times and iframe with location of the salon
+
+    - This should give the user clarification on where the Salon is and whn they are open. So they are not confused. This also gives users possibility to pop down to the salon for a more personal approach.
+
+    - ![Where to find and times section](/README-images/opening-where-yourstruly.png)
 
 ## Testing
 
