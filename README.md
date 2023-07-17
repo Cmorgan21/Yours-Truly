@@ -43,8 +43,9 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 
 - __About Us Section__
 
-    - 
-    -
+    - The About Us Section displays land marks of the business and important steps that Yours Truly have taken to become the business they are. It also has future plans that Yours Truly aim to hit
+    
+    - This should give the user more information and a better of the business they would be looking to get treatments off and what they could be looking out for in the future
 
 ![About Us](/README-images/aboutus-yourstruly.png)
 
