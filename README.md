@@ -62,8 +62,9 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 
 - __Footer Section__ 
 
-    -
-    -
+    - The Footer Section dipslays an arrow redirecting them back to the top of the page, GitHub and Linkden social links and Copyright of Yours Truly for their website.
+
+    - This will allow te user to quickly move to the top of the page - saving time and can help the user navigate to other social platforms of the business to follow more of thier socials.
 
 
 
