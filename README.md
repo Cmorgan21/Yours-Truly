@@ -127,10 +127,10 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 ![LightHouse Results](/README-images/lighthouse-test.png)
 
 ### Validator Testing 
-- HTML
+- __HTML__
     - Through the Validator Test almost everything came back clear. The only issue was an A tag being nested within a Button Tag
 
-- CSS 
+-  __CSS__
     - The CSS Validator came back clear. The only thing that can back for that was the scaling on some of the images. This could not be changed due to the effects
 
 ## Deployment 
