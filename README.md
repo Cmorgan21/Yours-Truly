@@ -112,6 +112,13 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 - Add a section where people can book a treatment from a diary
 
 ## Testing
+- I tested that the Website works in all browsers such as Chrome and Safari. I also used the developer tools within Safari to check responsiveness on it. I got a few people to load my page on their Iphones and Samsungs to see how it would appear
+
+- I can confirm that the navigation, images and buttons are clear all the way down to 300px for mobile phone responsiveness. 
+
+- I can also confirm the from on the contact page works and redirects you to the form dump with the values of each section you put in
+
+
  ### LightHouse Test
 - One test that was conducted to test the website was the lighthouse test within the Chrome Developer Tools. 
 
@@ -120,11 +127,39 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 ![LightHouse Results](/README-images/lighthouse-test.png)
 
 ### Validator Testing 
-- 
+- HTML
+    - Through the Validator Test almost everything came back clear. The only issue was an A tag being nested within a Button Tag
+
+- CSS 
+    - The CSS Validator came back clear. The only thing that can back for that was the scaling on some of the images. This could not be changed due to the effects
 
 ## Deployment 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In GitHub pages - navigate to the Settings tab
+    - Down the left hand side menu - to the Pages tab
+    - Select the Main branch and select save
+    - The page will refresh and the page link will appear at the top of the GitHub pages
+    - When a green tick appears it indicates a successful deployment!
 
 ## Credits 
+
+- ### Media 
+    - The Icons I used for the the index.html and contact.html and footer are from [Font Awesome](https://fontawesome.com/)
+
+    - The Images I used for all pages are from [Unsplashed](https://unsplash.com/) and [Pexels](https://www.pexels.com/) respectivley with some pictures of my own
+
+    - The Video I used in the index.html is from TED-Ed's Channel Respecivley [Youtube Channel](https://www.youtube.com/@TEDEd)
+
+    - The Website Logo was used creating Canva
+
+- ### Content
+    - A underline hover effect on the navigation bar was learnt and followed by a youtube video
+    [Underline Effect Video](https://www.youtube.com/watch?v=R033rKs6sgA)
+
+    - The scale effect on the Our Goal section was inspired by the project 'Love Running'
+
+    - The card flip effect on the treatments.html was learnt and inspired by a youtube video [Card Effect Video](https://www.youtube.com/watch?v=NCLdf661ILE&t=610s)
+
 
 
 
