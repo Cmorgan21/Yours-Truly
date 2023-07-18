@@ -111,8 +111,16 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 ### Features Left to Implement 
 - Add a section where people can book a treatment from a diary
 
-
 ## Testing
+ ### LightHouse Test
+- One test that was conducted to test the website was the lighthouse test within the Chrome Developer Tools. 
+
+- One thing that I struggled with was Peformance - as it stated that the 'Payload' is too large. I rectified this by compressing the images into a webp format instead of a PNG.
+    
+![LightHouse Results](/README-images/lighthouse-test.png)
+
+### Validator Testing 
+- 
 
 ## Deployment 
 
