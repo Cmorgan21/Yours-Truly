@@ -487,7 +487,7 @@ p {
 
 .s3-photo-container>img {
     height: 100%;
-    scale: 1.2;
+    transform: 1.2;
 
     animation: imageScale 20s linear;
 
@@ -495,11 +495,11 @@ p {
 
 @keyframes imageScale {
     0% {
-        scale: 1;
+        transform: 1;
     }
 
     100% {
-        scale: 1.2;
+        transform: 1.2;
     }
 }
 
@@ -1237,7 +1237,7 @@ p {
     }
 
     .s5-iframe-container {
-        scale: 0.9;
+        transform: 0.9;
     }
 
     /* treatments.html responsive media */
@@ -1332,7 +1332,7 @@ p {
     }
 
     .s5-iframe-container {
-        scale: 0.7;
+        transform: 0.7;
     }
 
     .s5-text-container>h3 {
@@ -1760,7 +1760,7 @@ p {
 
 
     .s5-iframe-container {
-        scale: 0.9;
+        transform: 0.9;
         height: 70%;
     }
 

@@ -150,7 +150,7 @@ Yours Truly's aim is to target an audience that are looking to take that step to
 
     - The Video I used in the index.html is from TED-Ed's Channel Respecivley [Youtube Channel](https://www.youtube.com/@TEDEd)
 
-    - The Website Logo was used creating Canva
+    - The Website Logo was used created Canva
 
 - ### Content
     - A underline hover effect on the navigation bar was learnt and followed by a youtube video
