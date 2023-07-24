@@ -431,29 +431,25 @@ p {
     justify-content: center;
 }
 
-.s2-button-container>button {
-    background: transparent;
-    height: 40px;
-    width: 100px;
-
-    border: solid white 1px;
-    border-radius: 10px;
-}
-
-.s2-button-container>button>a {
+.s2-button-container>a {
     color: white;
 
     font-family: 'Josefin Slab', serif;
-    font-weight: 700;
+    font-weight: 300;
+    background: transparent;
+    height: 40px;
+    width: 100px;
+    border: solid white 1px;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.s2-button-container>button:hover>a {
-    color: rgba(148, 98, 234, 1);
-}
-
-.s2-button-container>button:hover {
+.s2-button-container a:hover {
     background-color: white;
-
+    color: rgba(148, 98, 234, 1);
 }
 
 
@@ -491,7 +487,7 @@ p {
 
 .s3-photo-container>img {
     height: 100%;
-    scale: 120%;
+    scale: 1.2;
 
     animation: imageScale 20s linear;
 
@@ -499,11 +495,11 @@ p {
 
 @keyframes imageScale {
     0% {
-        scale: 100%;
+        scale: 1;
     }
 
     100% {
-        scale: 120%;
+        scale: 1.2;
     }
 }
 
@@ -670,30 +666,26 @@ p {
     justify-content: center;
 }
 
-.s5-button-container>button {
-    background: rgba(255, 255, 255, 0.5);
-    height: 40px;
-    width: 20%;
-    margin-top: 20px;
 
-    border: solid rgba(148, 98, 234, 1) 1px;
-    border-radius: 10px;
-}
-
-.s5-button-container>button>a {
+.s5-button-container a {
     color: rgba(148, 98, 234, 1);
 
     font-family: 'Josefin Slab', serif;
-    font-weight: 700;
+    font-weight: 300;
+    background: transparent;
+    height: 30px;
+    width: 100px;
+    border: solid rgba(148, 98, 234, 1) 1px;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.s5-button-container>button:hover>a {
+.s5-button-container a:hover {
     color: white;
-}
-
-.s5-button-container>button:hover {
     background-color: rgba(148, 98, 234, 1);
-
 }
 
 
@@ -1245,7 +1237,7 @@ p {
     }
 
     .s5-iframe-container {
-        scale: 90%;
+        scale: 0.9;
     }
 
     /* treatments.html responsive media */
@@ -1340,7 +1332,7 @@ p {
     }
 
     .s5-iframe-container {
-        scale: 70%;
+        scale: 0.7;
     }
 
     .s5-text-container>h3 {
@@ -1768,7 +1760,7 @@ p {
 
 
     .s5-iframe-container {
-        scale: 90%;
+        scale: 0.9;
         height: 70%;
     }
 
